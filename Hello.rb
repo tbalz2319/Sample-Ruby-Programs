@@ -13,3 +13,7 @@ class Hello
   #The program will say hello to "test" or bob 
   greeting = Hello.new('Bob')
   puts greeting.namez()
+  #Creating a second object which goes by the name of talal to say
+  #Hello to Ralph
+  talal = Hello.new('Ralph')
+  puts talal.namez()
