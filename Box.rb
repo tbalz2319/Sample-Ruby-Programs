@@ -19,6 +19,8 @@ class Box
   def printMult
     @height * @width
   end
+  def printDivide
+    @height / @width
 end
 
 #object creation
@@ -28,6 +30,8 @@ box = Box.new(30,40)
 x = box.printWidth()
 y = box.printHeight()
 z = box.printMult()
+#07/10/13 adding in new divide method
+k = box.printDivide()
 
 puts "Width of the box is : #{x}"
 puts "Height of the box it : #{y}"
