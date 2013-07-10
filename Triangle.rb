@@ -4,7 +4,7 @@ class Triangle
   #Initialize our class variable
   @@count = 0
   #Constructor with class method using @@
-  these 
+  #This contructor will create all the variables uses by the Triangle class
   def initialize(b,h)
     @base = b
     @height = h
