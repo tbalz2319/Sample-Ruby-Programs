@@ -4,6 +4,7 @@ class Triangle
   #Initialize our class variable
   @@count = 0
   #Constructor with class method using @@
+  these 
   def initialize(b,h)
     @base = b
     @height = h
