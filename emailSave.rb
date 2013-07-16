@@ -1,3 +1,4 @@
+#This program will save the latest email in the Outlook inbox to message.htm
 require 'win32ole'
 
 olHTML = 5
