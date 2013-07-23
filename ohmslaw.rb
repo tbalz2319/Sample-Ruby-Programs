@@ -1,5 +1,5 @@
 class OhmsLaw
-  def initialize(voltage, current, resistance)
+	def initialize(voltage, current, resistance)
 		@voltage = voltage
 		@current = current
 		@resistance = resistance
@@ -25,17 +25,18 @@ class OhmsLaw
 end
 
 #created a new object called solve that will take V,I,R as inputs
-solve = OhmsLaw.new(9.0, nil, 2)
+solve = OhmsLaw.new(nil, 75, 3)
 #attr_accessor allows us to change voltage of 9 to 16 volts from 
 #outside of the class
-solve.voltage = 16
+#solve.voltage = 27
 
-if solve.voltage == nil
-	puts solve.voltageNil
-elsif solve.current == nil
+if solve.voltage.nil?
+	puts "The voltage is #{solve.voltageNil}"
+	#puts 
+elsif solve.current.nil?
 	puts solve.solve4Current
 else
 	puts solve.resistanceNil
 end
 
-puts "#{solve}"
+puts solve
